@@ -129,6 +129,7 @@
 	align-items: center;
 	justify-content: center;
   } */
+
   .outer{
 	position: relative;
 	/* margin: 0 50px; */
@@ -137,8 +138,8 @@
 	background:  #90cad0;
   }
   .button{
-	height: 70px;
-	width: 220px;
+	height: 65px;
+	width: 215px;
 	border-radius: 50px;
   }
   .outer button, .outer span{
@@ -193,7 +194,7 @@
 	  filter: hue-rotate(360deg);
 	}
   }
-  @media (min-width: 10%){
+  @media (max-width: 10%){
 	.center{
 	  flex-wrap: wrap;
 	  flex-direction: column;
