@@ -19,10 +19,11 @@
 	position: relative;
 }
 
+/* 134.75px */
 .contenido img {
 	margin-top: 50px;
-	max-width: 10%;
-	min-width: 20%;
+	max-width: 9%;
+	min-width: 135px;
 	height: auto;
 	border-radius: 50%;
 }
@@ -30,7 +31,7 @@
 .contenido h1 {
 	text-align: center;
 	font-weight: 300;
-	font-size: 40px;
+	font-size: 250%;
 	line-height: 1.2;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 15px;
@@ -39,9 +40,12 @@
 
 .contenido h3,h2 {
 	font-weight: 300;
-	margin-bottom: 15px;
+	font-style: italic;
+	font-size: 150%;
+	margin-bottom: 30px;
 	color: white;
 	text-align: center;
+
 }
 
 
