@@ -40,7 +40,8 @@ body {
 .contenido img {
 	/* width: 15%; */
 	/* width: 10%; */
-	max-width: 20%;
+	max-width: 25%;
+	min-width: 10%;
 	height: auto;
 	border-radius: 50%;
 }
