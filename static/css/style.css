@@ -210,7 +210,7 @@ body {
 	  filter: hue-rotate(360deg);
 	}
   }
-  @media (max-width: 640px){
+  @media (min-width: 10%){
 	.center{
 	  flex-wrap: wrap;
 	  flex-direction: column;
