@@ -23,7 +23,7 @@
 .contenido img {
 	margin-top: 50px;
 	max-width: 9%;
-	min-width: 135px;
+	min-width: 100px;
 	height: auto;
 	border-radius: 50%;
 }
