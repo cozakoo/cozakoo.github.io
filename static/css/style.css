@@ -15,7 +15,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 	/* line-height: 1.5; */
-	cursor: url(robot.svg), url(robot.svg), pointer;
 }
 
 #miVideo {
@@ -30,7 +29,7 @@ body {
 }
 
 .contenido {
-	text-align: center;
+	/* text-align: center; */
 	position: relative;
 	bottom: 0;
 	width: 100%;
@@ -40,7 +39,9 @@ body {
 
 .contenido img {
 	/* width: 15%; */
-	width: 10%;
+	/* width: 10%; */
+	max-width: 20%;
+	height: auto;
 	border-radius: 50%;
 }
 
@@ -66,13 +67,6 @@ body {
 	padding-right: 10px;
 }
 
-.contenido i{
-	/* font-size: 120%; */
-	/* align: left; */
-	/* position: relative; */
-	/* margin-right: 50%; */
-}
-
 .btn {
 	display: inline-block;
 	padding: 10px 30px;
@@ -87,6 +81,10 @@ body {
 
 .btn:hover {
 	transform: scale(1.23);
+}
+
+.outer{
+	background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0) ;
 }
 
 
