@@ -21,7 +21,7 @@
 
 /* 134.75px */
 .contenido img {
-	margin-top: 50px;
+	margin-top: 10px;
 	max-width: 9%;
 	min-width: 100px;
 	height: auto;
@@ -153,7 +153,7 @@
 	color: #f2f2f2;
 	outline: none;
 	border: none;
-	font-size: 20px;
+	font-size: 18px;
 	z-index: 9;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -162,8 +162,8 @@
 
 /* RELLENO */
 .button {
-	height: 65px;
-	width: 215px;
+	height: 45px;
+	width: 195px;
 	border-radius: 50px;
 
 	/* height: 65px;
@@ -173,8 +173,8 @@
 
 /* parte negra */
 .button button {
-	height: 60px;
-	width: 210px;
+	height: 40px;
+	width: 190px;
 	border-radius: 50px;
 }
 
